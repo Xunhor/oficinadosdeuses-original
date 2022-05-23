@@ -40,8 +40,9 @@ section {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #000;
-    outline: 2px solid black;
+    color: #fff;
+    background-color: #001a00;
+    outline: 2px solid #001a00;
     padding: 20px 35px; /* 30 - 50*/
     position: relative;
     overflow: hidden;
@@ -51,6 +52,7 @@ section {
 
 .button-compra:hover{
     color: #fff;
+    background-color: #021f02;
 }
 
 .button-compra::before{
@@ -60,7 +62,7 @@ section {
     left: -50px;
     width: 0;
     height: 100%;
-    background-color: #001a00;;
+    background-color: #056105;;
     transform: skewX(35deg);
     z-index: -1;
     transition: width 1s;
