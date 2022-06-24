@@ -33,7 +33,7 @@ nav,
 section {
     display: block
 }
-
+/* my style */
 .button-compra{
     display: inline-block;
     text-decoration: none;
@@ -67,6 +67,7 @@ section {
     transition: width 1s;
 }
 
+/* my style */
 .button-compra:hover::before{
     width: 150%;
 }
