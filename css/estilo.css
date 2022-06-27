@@ -50,6 +50,7 @@ section {
 }
 
 .button-compra:hover{
+    text-decoration: none;
     color: #fff;
     background-color: #021f02;
 }
@@ -65,6 +66,10 @@ section {
     transform: skewX(35deg);
     z-index: -1;
     transition: width 1s;
+}
+a:hover{
+    color: #ddd;
+    text-decoration: underline;
 }
 
 /* my style */
@@ -98,6 +103,7 @@ template {
 }
 
 a {
+    text-decoration-line: none; /* Remove line dos link */
     background-color: transparent
 }
 
